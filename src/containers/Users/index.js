@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import AppList from "../../components/AppList";
 import UserDetailsDrawer from "../../components/UserDetailsDrawer";
 import UserRow from "../../components/UserRow";
@@ -10,12 +10,12 @@ export default function Users() {
   const [openDrawer, setOpenDrawer] = useState(false);
   const [selectedUser, setUser] = useState({});
 
-  const closeDrawer = () => setOpenDrawer(false);
+  const closeDrawer = useCallback(() => setOpenDrawer(false),[setOpenDrawer]);
 
-  const handleSelectUser = (user) => {
+  const handleSelectUser = useCallback((user) => {
     setUser(user);
     setOpenDrawer(true);
-  };
+  },[setUser,setOpenDrawer]);
 
   return (
     <div className={styles.container}>

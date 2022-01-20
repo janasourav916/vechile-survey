@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import AppList from "../../components/AppList";
 import Pagination from "../../components/Pagination";
 import SideDrawer from "../../components/SideDrawer";
@@ -22,16 +22,16 @@ export default function Cars() {
     setData(formtedData);
   }, [users]);
 
-  const closeDrawer = () => setOpenDrawer(false);
+  const closeDrawer = useCallback(() => setOpenDrawer(false),[setOpenDrawer]);
 
   const onView = (data) => {
     setRow(data);
     setOpenDrawer(true);
   };
 
-  const handlePageChange = (page) => {
+  const handlePageChange = useCallback((page) => {
     setCurrentPage(page);
-  };
+  },[setCurrentPage]);
 
   //render dynamic generate table row
   const renderCarRow = useMemo(() => {

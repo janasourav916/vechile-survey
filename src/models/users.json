@@ -21,7 +21,7 @@
         },
         "age":{
             "type":"randomNumberBetween",
-            "value":[20,70]
+            "value":[20,80]
         },
         "address": {
             "type": "Object",
