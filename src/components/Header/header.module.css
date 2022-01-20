@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 1em;
+}
+.header a {
+  text-decoration: none;
+}
+.header__identity {
+  display: flex;
+  align-items: center;
+}
+.header__title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+.header__logo {
+  width: 54px;
+  height: 60px;
+  margin-right: 0.5em;
+}
+.header__navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
+.nav__default {
+  color: var(--text-dark-50);
+}
+.nav__active,
+.nav__default:hover {
+  color: var(--text-primary);
+}

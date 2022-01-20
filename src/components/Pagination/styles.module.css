@@ -1,0 +1,30 @@
+.pagination ul {
+  padding-left: 0;
+  margin-bottom: 0px;
+  display: flex;
+}
+.pagination ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+.pagination ul li button {
+  color: var(--text-dark);
+  float: left;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.pagination ul li button.active,
+.pagination ul li button:hover {
+  background-color: #13b5ea;
+  border: 1px solid #13b5ea;
+  color: #fff !important;
+}
+.btn__active {
+  background-color: #13b5ea;
+  border: 1px solid #13b5ea;
+  color: #fff !important;
+}

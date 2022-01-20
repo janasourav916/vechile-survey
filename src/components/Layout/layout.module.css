@@ -1,0 +1,6 @@
+.body {
+  background-color: var(--page-bg);
+  min-height: 100vh;
+  min-width: 100vh;
+  /* padding: 1em; */
+}

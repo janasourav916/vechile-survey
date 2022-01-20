@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.loader {
+  /* width: 100; */
+}

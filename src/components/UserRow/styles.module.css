@@ -1,0 +1,12 @@
+.user__avatar {
+  width: 60px;
+}
+.user__container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--divider);
+  cursor: pointer;
+}
+.user__content {
+  padding: var(--spacing-s);
+}

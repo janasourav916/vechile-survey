@@ -1,0 +1,27 @@
+.drawer__header {
+  padding: var(--spacing-m);
+  border-bottom: 1px solid var(--divider);
+  color: var(--text-primary);
+}
+.drawer__container {
+  padding: var(--spacing-m);
+}
+.fields {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-m);
+}
+.fields__title {
+  margin: var(--spacing-s) 0px;
+  color: var(--text-primary);
+}
+.fields__divider {
+  margin: var(--spacing-m) 0px;
+}
+.vechileColor {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: "50%";
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  --primary: #007fff;
+  --text-primary: #007fff;
+  --text-dark: #262626;
+  --text-dark-50: #4f4f4f;
+  --page-bg: #e7ebf0;
+  --bg-light: #ffffff;
+  --card-bg: #fff;
+  --spacing-m: 1.3em;
+  --spacing-s: 0.7em;
+  --card-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25),
+    1px 1px 3px rgba(0, 0, 0, 0.1);
+  --divider: #e0e0e0;
+  --drawer-overlay: rgba(0, 0, 0, 0.7);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}

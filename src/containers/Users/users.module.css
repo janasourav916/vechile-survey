@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+}
+.sidebar {
+  min-width: 280px;
+  height: 100vh;
+  background-color: var(--bg-light);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.content {
+  width: calc(100% - 250px);
+  margin: var(--spacing-s);
+}
+.user__avatar {
+  width: 60px;
+}
+.user__container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--divider);
+  cursor: pointer;
+}
+.user__content {
+  padding: var(--spacing-s);
+}

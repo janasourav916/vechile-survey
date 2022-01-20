@@ -1,0 +1,19 @@
+.drawer__overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--drawer-overlay);
+  z-index: 2;
+}
+.drawer__container {
+  background-color: var(--bg-light);
+  position: fixed;
+  min-width: 250px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  overflow: scroll;
+}

@@ -1,0 +1,14 @@
+.card {
+  background-color: var(--card-bg);
+  border-radius: 2px;
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25), 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.card__header {
+  padding: var(--spacing-m) var(--spacing-m) 0 var(--spacing-m);
+}
+.card__title {
+  font-size: 1.5em;
+}
+.card_content {
+  padding: var(--spacing-m);
+}
